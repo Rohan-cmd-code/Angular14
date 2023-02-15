@@ -1,5 +1,5 @@
 
-*** Angular is a modular framework i.e. everything in anguar is module ***
+***Angular is a modular framework i.e. everything in anguar is module***
 
 *** ng serve  or npm run start ***
 
@@ -84,12 +84,16 @@
         ERROR: component is missing template
 
     --> To remove the error we have to add one more property i.e. template
+
+    
+        ```
         import { Component } from "@angular/core";
         @Component({
             selector: 'app-root',
             template: "<h1>My App</h1>",
         })
         export class AppComponent {}
+        ```
 
         --> Even after running the file we will get the white screen with no information display. It is because we don't add any browser related information for the angular.
 
